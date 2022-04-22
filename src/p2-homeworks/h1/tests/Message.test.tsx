@@ -11,7 +11,6 @@ test('find text "test message name"', () => {
             time=""
         />
     ))
-    // eslint-disable-next-line testing-library/prefer-screen-queries
     const linkElement = getByText(/test message name/i)
     expect(linkElement).toBeInTheDocument()
 })
@@ -24,7 +23,6 @@ test('find text "test message"', () => {
             time=""
         />
     ))
-    // eslint-disable-next-line testing-library/prefer-screen-queries
     const linkElement = getByText(/test message/i)
     expect(linkElement).toBeInTheDocument()
 })
@@ -37,7 +35,6 @@ test('find text "test message time"', () => {
             time="test message time"
         />
     ))
-
     const linkElement = getByText(/test message time/i)
     expect(linkElement).toBeInTheDocument()
 })

@@ -1,5 +1,6 @@
 import React from 'react'
-import s from "./Message.module.css"
+
+import classes from "./Message.module.css";
 
 
 type MessagePropsType = {
@@ -7,20 +8,38 @@ type MessagePropsType = {
     name: string
     message: string
     time: string
+
 }
 
 function Message(props: MessagePropsType) {
     return (
-        <div className={s.wrapper}>
-            <div className={s.image}>
-                <img src={props.avatar} className={s.avatar}/>
+        <div className={classes.wrapper}>
+            <div className={classes.messageAva}>
+                {<img src={props.avatar}/>}
             </div>
-                <div className={s.container}>
-                    <div className={s.name}>{props.name}</div>
-                    <div className={s.text}>{props.message}</div>
-                    <div className={s.time}>{props.time}</div>
+            <section className={classes.chatBody}>
+                <div className={classes.message}>
+                    <div className={classes.droplet}>
+                        <div className={classes.messageText}>
+                            <div className={classes.wrapperMessage}>
+                                <div className={classes.txt}>
+                                    <p className={classes.txtName}>{props.name}</p>
+                                    <p className={classes.txtMessage}>{props.message}</p>
+                                </div>
+                                <div className={classes.messageTime}>{props.time}</div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </div>
+            </section>
+            <svg height="0" width="0">
+                <defs>
+                    <clipPath id="left-droplet">
+                        <path d="M 10,0 A 10,10 0 0 1 0,10 H 16 V 0 Z"/>
+                    </clipPath>
+                </defs>
+            </svg>
+        </div>
     )
 }
 

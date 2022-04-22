@@ -8,4 +8,4 @@ function AlternativeMessage() {
     )
 }
 
-export default AlternativeMessage;
+export default AlternativeMessage
