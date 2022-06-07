@@ -1,7 +1,27 @@
-.checkbox {
+/*.checkbox {*/
+/*    appearance: none;*/
+/*    width: 20px;*/
+/*    height: 20px;*/
+/*    margin-right: 10px;*/
+/*    background-color: white;*/
 
-}
+/*}*/
 
+/*.checkbox:checked {*/
+/*    appearance: none;*/
+
+/*    background: #335533;*/
+/*}*/
+
+/*.checkbox:focus {*/
+/*    outline: orange solid 2px;*/
+/*}*/
+
+/*.label {*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*    cursor: pointer;*/
+/*}*/
 .spanClassName {
 
 }

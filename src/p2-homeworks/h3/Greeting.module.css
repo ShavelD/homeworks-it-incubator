@@ -1,5 +1,5 @@
-.someClass {
-
+.flex_container {
+    display: flex;
 }
 
 .error {
