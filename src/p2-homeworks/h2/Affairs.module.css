@@ -2,17 +2,29 @@
 
 }
 
-
 .affair {
-    width: 250px;
+    width: 300px;
     display: flex;
-   justify-content: space-between;
+    justify-content: space-between;
 }
 
 .priorityClass {
-
+  color: firebrick;
 }
 
 .button {
    margin: 0 20px 10px 0;
+}
+
+.item {
+    width: 100px;
+    color: darkgreen;
+    border-radius: 8px;
+    border: 2px solid #3f643f;
+    padding: 0 5px 0 5px;
+    margin-bottom: 2px;
+}
+
+.active {
+    background-color: slategray;
 }

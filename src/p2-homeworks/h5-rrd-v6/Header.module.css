@@ -1,0 +1,20 @@
+.pre_junior,.junior,.junior_plus {
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+.pre_junior {
+    color: slategray;
+}
+
+.junior {
+    color: #3f643f;
+}
+
+.junior_plus {
+    color: gold;
+}
+
+.container {
+    margin-right: 20px;
+}

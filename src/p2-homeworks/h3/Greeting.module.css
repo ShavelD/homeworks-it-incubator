@@ -5,3 +5,11 @@
 .error {
     border: 1px solid red;
 }
+
+.add {
+    width: 50px;
+    max-height: 26px;
+    margin-right: 15px;
+    border-radius: 8px;
+    border: 1px solid peachpuff;
+}

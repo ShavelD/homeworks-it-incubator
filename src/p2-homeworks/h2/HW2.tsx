@@ -17,10 +17,10 @@ export type FilterType = 'all' | AffairPriorityType
 // constants
 const defaultAffairs: Array<AffairType> = [ // need to fix any
     {id: 1, name: 'React', priority: 'high'},
-    {id: 2, name: 'anime', priority: 'low'},
-    {id: 3, name: 'games', priority: 'low'},
-    {id: 4, name: 'work', priority: 'high'},
-    {id: 5, name: 'html & css', priority: 'middle'},
+    {id: 2, name: 'Anime', priority: 'low'},
+    {id: 3, name: 'Games', priority: 'low'},
+    {id: 4, name: 'Work', priority: 'high'},
+    {id: 5, name: 'Html & Css', priority: 'middle'},
 ]
 
 // pure helper functions
