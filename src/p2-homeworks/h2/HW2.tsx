@@ -1,5 +1,6 @@
 import React, {useState} from 'react'
 import Affairs from './Affairs'
+import s from "../h4/HW4.module.css";
 
 
 // types
@@ -47,7 +48,7 @@ function HW2() {
     return (
         <div>
             <hr/>
-            homeworks 2
+            <h1 className={s.homeworks}>homeworks 2</h1>
 
             {/*should work (должно работать)*/}
             <Affairs
@@ -57,10 +58,10 @@ function HW2() {
                 filter={filter}
             />
 
-            <hr/>
+            {/*<hr/>*/}
             {/*для личного творчества, могу проверить*/}
             {/*<AlternativeAffairs/>*/}
-            <hr/>
+            {/*<hr/>*/}
         </div>
     )
 }

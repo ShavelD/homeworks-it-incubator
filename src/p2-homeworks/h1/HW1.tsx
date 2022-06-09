@@ -1,5 +1,6 @@
 import React from 'react'
 import Message from "./Message";
+import s from "../h4/HW4.module.css";
 
 
 const messageData = {
@@ -13,7 +14,7 @@ function HW1() {
     return (
         <div>
             <hr/>
-            homeworks 1
+            <h1 className={s.homeworks}>homeworks 1</h1>
 
             {/*should work (должно работать)*/}
 
@@ -23,10 +24,10 @@ function HW1() {
                 message={messageData.message}
                 time={messageData.time}
             />
-            <hr/>
+            {/*<hr/>*/}
             {/*для личного творчества, могу проверить*/}
             {/*<AlternativeMessage/>*/}
-            <hr/>
+            {/*<hr/>*/}
         </div>
     )
 }
