@@ -12,3 +12,7 @@
     font-weight: inherit;
     color: #3f643f;
 }
+
+.blue {
+    border: 2px solid turquoise;
+}

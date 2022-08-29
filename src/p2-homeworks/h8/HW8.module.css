@@ -1,0 +1,8 @@
+.flex {
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+}
+.check {
+    padding: 15px 0;
+}

@@ -6,4 +6,4 @@ function AlternativeSuperEditableSpan() {
     )
 }
 
-export default AlternativeSuperEditableSpan
+export default AlternativeSuperEditableSpan;

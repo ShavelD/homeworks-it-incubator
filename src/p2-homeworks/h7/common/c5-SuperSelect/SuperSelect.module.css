@@ -1,0 +1,10 @@
+.option {
+    background-color: burlywood;
+    cursor: pointer;
+}
+
+select {
+    width: 80px;
+    padding: 5px;
+}
+
